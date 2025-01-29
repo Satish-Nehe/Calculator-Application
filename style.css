@@ -1,0 +1,132 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+:root {
+    --primary: #e0e5ec;
+    --secondary: #8a92a5;
+    --accent: #4d5bf9;
+    --text-color: white;
+    --text-color-inactive: rgba {
+        100%,
+        100%,
+        100%,
+        0
+    }
+    ;
+    --backgroundcolor:black;
+    --neutral: rgb(5%, 5%, 5%);
+    --primarycolor:ghostwhite;
+    --text-size:16px;
+  }
+body{
+    background-image: url('https://cdn.dribbble.com/users/5550652/screenshots/15359416/media/bab908240fa7cfff620d4d0c7c87c99b.png?resize=1000x750&vertical=center');
+    height: 100vh;
+    /* width: 100vw; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#main-container{
+    background-color: rgba(211, 211, 211, 0.6);
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    border: 2px solid black;
+    width: 50vw;
+    height: 95vh;
+    border-radius: 20px;
+}
+.input-Fields{
+ display: flex;
+ justify-content: center;
+ gap: 10px;
+ transition: all 0.5s ease-in-out;
+}
+.input-Fields button{
+    margin-top: 25px;
+    background-color: #89d8d3;
+    box-shadow: inset 5px 5px 10px #bec3c9, inset -5px -5px 10px #ffffff;
+    height: 5vh;
+    width: 10vw;
+    cursor: pointer;
+    border-radius: 10px;
+}
+.input-Fields input{
+    border: 3px solid teal;
+    color: teal; 
+    font-size: 20px;
+    background-color: var(--neutral);
+    text-align: center;
+    border-radius: 8px;
+    margin-top: 25px;
+    width: 30vw;
+    height: 5vh;
+}
+.inner-container{
+    display: flex;
+    /* flex-direction: row; */
+    width: 40vw;
+    margin-left: 75px;
+    gap: 40px;
+}
+.input-number-feilds{
+    background: var(--neutral);
+    border: teal solid 4px;
+    border-radius: 20px;
+    width: 40vw;
+    height: 65vh;
+    margin-left: 10px;
+    display: grid;
+    grid-template-columns: repeat(3, 50px);
+    grid-template-rows: repeat(4, 60px);
+    justify-content: center;
+    grid-gap: 30px;
+}
+.input-number-feilds p{
+    border: teal solid 2px;
+    color: teal;
+    /* border: 2px solid black; */
+    padding: 30px;
+    margin: 35px 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 10px;
+    cursor: pointer;
+}
+.inner-container{
+    display: flex;
+}
+.operations{
+    background: var(--neutral);
+    border: teal solid 4px;
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    width: 20vw;
+    margin-right: 10px;
+}
+.operations button{
+    /* background: var(--primary); */
+    background-color: #89d8d3;
+    box-shadow: inset 5px 5px 10px #bec3c9, inset -5px -5px 10px #ffffff;
+    height: 5vh;
+    width: 10vw;
+    cursor: pointer;
+    border-radius: 10px;
+}
+   .container{
+    background: var(--neutral);
+    width: 35vw;
+    margin-left:120px;
+    height: 10vh;
+    border: teal solid 4px;
+    border-radius: 20px;
+    color: #89d8d3;
+    display: flex;
+    align-items: center;
+   }
